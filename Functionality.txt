@@ -1,0 +1,50 @@
+Student Side:
+
+1.Registration :
+  Allows a student to register into the system using personal details and batch/course info.
+
+2.Login:
+  Authenticates the student and logs them into their dashboard.
+
+3.Fill Feedback:
+  Student selects a faculty from the list and gives feedback by answering the questions.
+
+4.Feedback Submission Conformation:
+  Shows confirmation message "Feedback Submitted Successfully" after successful feedback submission.
+
+Faculty Side:
+
+1.Registration:
+  Allows faculty to register into the system. Role can be Trainer, Lab Mentor, etc.
+
+2.Login:
+  Faculty can login to view feedback given by students.
+
+3.Feedback Summary:
+  Displays feedback submitted by students for that specific faculty. Faculty can review their own feedback and this feedback is only visible when a course coordinator upload the feedback to 
+  particular faculty.
+
+Admin Side:
+
+1.Login:
+  Admin login to access management functionalities.
+
+2.Admin Dashboard:
+  a)Menu Option: Admin can manage entire data structure (CRUD operations on users, questions, etc.)
+    like Add Student, Add Faculty, Add Course, Add Batch ,Add Questions
+
+  b) Schedule Feedback Section: Admin schedules feedback sessions for a particular course by adding fields such as Select Faculty, Course, Type (e.g. Theory/Lab),Subject, Date.
+
+
+  c)Feedback Response: View what feedback is submitted by which student.
+
+  d)Feedback Questions: Information about What type of Questions is added in Feedback.
+
+  e)Add Feedback: Admin can download the response submitted by student and upload that file to particular faculty.
+
+
+
+
+
+
+
